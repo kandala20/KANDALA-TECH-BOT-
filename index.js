@@ -1,50 +1,53 @@
-const { default: makeWASocket, useMultiFileAuthState, Browsers, makeCacheableSignalKeyStore } = require("@whiskeysockets/baileys")
-const pino = require("pino")
-const TelegramBot = require("node-telegram-bot-api")
-const express = require("express")
+const TelegramBot = require('node-telegram-bot-api');
+const express = require('express');
 
-// 1. EXPRESS SERVER KWA RENDER FREE - LAZIMA IWE HAPA
-const app = express()
-app.get('/', (req, res) => res.send('𝗞𝗔𝗡𝗗𝗔𝗟𝗔 𝗧𝗘𝗖𝗛® Bot is Running 24/7'))
-const PORT = process.env.PORT || 3000
-app.listen(PORT, () => {
-    console.log(`Keep-alive server running on port ${PORT}`)
-})
+// --- SERVER YA KEEP-ALIVE ---
+const app = express();
+const PORT = process.env.PORT || 10000;
+app.get('/', (req, res) => res.send('𝗞𝗔𝗡𝗗𝗔𝗟𝗔 𝗧𝗘𝗖𝗛® Bot is Alive!'));
+app.listen(PORT, () => console.log(`Keep-alive server running on ${PORT}`));
 
-// 2. BOT TOKEN CHECK - IMEFIXIWA
-const token = process.env.BOT_TOKEN
-if (!token) {
-    console.error('FATAL ERROR: BOT_TOKEN haijawekwa kwa Environment Variables!')
-    process.exit(1)
+// --- BOT YAKO ---
+const BOT_TOKEN = process.env.BOT_TOKEN;
+
+if (!BOT_TOKEN) {
+    console.error('FATAL ERROR: BOT_TOKEN haijawekwa kwa Environment Variables!');
+    process.exit(1);
 }
-const bot = new TelegramBot(token, { polling: true })
 
-// 3. STORE SESSIONS
-const sessions = new Map()
+const bot = new TelegramBot(BOT_TOKEN, { polling: true });
 
-// 4. WHATSAPP PAIRING FUNCTION
-async function startPairing(phoneNumber, chatId) {
-    try {
-        const { state, saveCreds } = await useMultiFileAuthState(`./session_${chatId}`)
-        
-        const sock = makeWASocket({
-            auth: {
-                creds: state.creds,
-                keys: makeCacheableSignalKeyStore(state.keys, pino({ level: "silent" }))
-            },
-            printQRInTerminal: false,
-            logger: pino({ level: "silent" }),
-            browser: Browsers.macOS("Desktop")
-        })
+console.log('𝗞𝗔𝗡𝗗𝗔𝗟𝗔 𝗧𝗘𝗖𝗛® Bot Started Successfully');
 
-        sock.ev.on("creds.update", saveCreds)
+// --- COMMANDS ---
+bot.onText(/\/start/, (msg) => {
+    const chatId = msg.chat.id;
+    const welcomeMsg = `
+🔥 *KARIBU 𝗞𝗔𝗡𝗗𝗔𝗟𝗔 𝗧𝗘𝗖𝗛® BOT* 🔥
 
-        sock.ev.on("connection.update", async (update) => {
-            const { connection, lastDisconnect } = update
-            
-            if (connection === "open") {
-                await bot.sendMessage(chatId, `✅ *Imefanikiwa!* Namba ${phoneNumber} imeunganishwa na WhatsApp.\n\n𝗞𝗔𝗡𝗗𝗔𝗟𝗔 𝗧𝗘𝗖𝗛®`, { parse_mode: 'Markdown' })
-                sessions.delete(chatId)
-            }
-            
-            if (connection === "close") {
+Nimeundwa na *𝕂𝔸ℕ𝔻𝔸𝕃𝔸 𝕋𝔼ℂℍ®*
+
+Tumia /help kuona commands.
+    `;
+    bot.sendMessage(chatId, welcomeMsg, { parse_mode: 'Markdown' });
+});
+
+bot.onText(/\/help/, (msg) => {
+    const chatId = msg.chat.id;
+    const helpMsg = `
+📋 *COMMANDS ZINAZOPATIKANA:*
+
+/start - Anza bot
+/help - Msaada
+/ping - Test kama bot iko hai
+    `;
+    bot.sendMessage(chatId, helpMsg, { parse_mode: 'Markdown' });
+});
+
+bot.onText(/\/ping/, (msg) => {
+    bot.sendMessage(msg.chat.id, '🏓 Pong! Bot iko hewani mkuu 💪');
+});
+
+bot.on('polling_error', (error) => {
+    console.log('Polling error:', error.code);
+});
