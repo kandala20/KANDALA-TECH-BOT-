@@ -82,3 +82,7 @@ bot.onText(/\/pair (.+)/, async (msg, match) => {
 })
 
 console.log('🔥 𝗞𝗔𝗡𝗗𝗔𝗟𝗔 𝗧𝗘𝗖𝗛® Bot Started - All Countries Supported')
+const express = require('express')
+const app = express()
+app.get('/', (req, res) => res.send('𝗞𝗔𝗡𝗗𝗔𝗟𝗔 𝗧𝗘𝗖𝗛® Bot Running'))
+app.listen(process.env.PORT || 3000)
