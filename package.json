@@ -1,1 +1,17 @@
-
+{
+  "name": "kandala-tech-bot",
+  "version": "1.0.0",
+  "description": "𝗞𝗔𝗡𝗗𝗔𝗟𝗔 𝗧𝗘𝗖𝗛® WhatsApp Pair Bot - All Countries",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "latest",
+    "node-telegram-bot-api": "^0.64.0",
+    "pino": "^8.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
