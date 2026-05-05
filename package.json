@@ -1,14 +1,19 @@
 {
   "name": "kandala-tech-bot",
   "version": "1.0.0",
+  "description": "Official KANDALA TECH® WhatsApp Bot",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "node-telegram-bot-api": "^0.64.0",
-    "express": "^4.18.2",
-    "@whiskeysockets/baileys": "^6.6.0",
-    "qrcode-terminal": "^0.12.0"
+    "node-telegram-bot-api": "^0.66.0",
+    "@whiskeysockets/baileys": "latest",
+    "qrcode": "^1.5.3",
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
