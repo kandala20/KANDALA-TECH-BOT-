@@ -15,7 +15,7 @@
   <a href="https://wa.me/255672752355">
     <img src="https://img.shields.io/badge/Contact%20Owner-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Owner"/>
   </a>
-  <a href="https://github.com/kandala20/KANDALA-TECH-BOT">
+  <a href="https://github.com/kandala20/KANDALA-TECH-BOT-">
     <img src="https://img.shields.io/badge/GitHub-Repo-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
 </p>
@@ -69,7 +69,7 @@
   <tr>
     <td><b>Heroku</b></td>
     <td>
-      <a href="https://dashboard.heroku.com/new?template=https://github.com/kandala20/KANDALA-TECH-BOT">
+      <a href="https://dashboard.heroku.com/new?template=https://github.com/kandala20/KANDALA-TECH-BOT-">
         <img src="https://img.shields.io/badge/DEPLOY%20TO%20HEROKU-blue?style=for-the-badge&logo=heroku" width="200"/>
       </a>
     </td>
