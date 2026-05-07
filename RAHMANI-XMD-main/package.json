@@ -1,7 +1,7 @@
 {
-  "name": "RAHMANI-XMD",
+  "name": "kandala-tech-bot",
   "version": "2.0.0",
-  "description": "WhatsApp Multi Device Bot",
+  "description": "𝗞𝗔𝗡𝗗𝗔𝗟𝗔 𝗧𝗘𝗖𝗛® WhatsApp Multi Device Bot",
   "main": "pkdriller.js",
   "type": "commonjs",
   "scripts": {
@@ -15,10 +15,15 @@
     "baileys-md",
     "bot-wa",
     "bot-md",
-    "whatsapp-multi-device"
+    "whatsapp-multi-device",
+    "kandala-tech"
   ],
-  "author": "RAHMANI-XMD",
+  "author": "Kandala",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kandala20/KANDALA-TECH-BOT.git"
+  },
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
     "@brandond/findthelyrics": "^2.0.5",
