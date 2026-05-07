@@ -1,0 +1,127 @@
+{
+  "name": "kandala-tech-bot",
+  "description": "Best WhatsApp Multi Device Bot💥 developed by Kandala",
+  "keywords": ["bot", "node", "baileys", "whatsapp", "kandala-tech"],
+  "logo": "https://i.ibb.co/4Y7Z1yK/neon-bg.jpg",
+  "repository": "https://github.com/kandala20/KANDALA-TECH-BOT",
+  "success_url": "/",
+  "stack": "heroku-24",
+  "env": {
+    "PREFIX": {
+      "description": "choose your prefix of bot",
+      "value": ".",
+      "required": true
+    },
+    "AUTO_READ_STATUS": {
+      "description": "Your contact status will be read automatically (type yes to active or no to deactive; don't write in capital letter)",
+      "value": "yes",
+      "required": false
+    }, 
+    "AUTO_DOWNLOAD_STATUS": {
+      "description": "Your contact status will be download automatically and send to you (type yes to active or no to deactive; don't write in capital letter)",
+      "value": "no",
+      "required": false
+    },
+    "AUTO_READ": {
+      "description": "Your contact will be read messages automatically (type yes to active or no to deactive; don't write in capital letter)",
+      "value": "yes",
+      "required": false   
+    },
+    "AUTO_REACT": {
+      "description": "Enter yes for your bot to auto react",
+      "value": "yes",
+      "required": false
+    },
+    "ANTICALL": {
+      "description": "Enter yes for your bot to auto reject calls",
+      "value": "no",
+      "required": false
+    },
+    "AUTO_REACT_STATUS": {
+      "description": "Enter yes for your bot to auto like status",
+      "value": "yes",
+      "required": true
+    },
+    "PM_PERMIT": {
+      "description": "Other user can't use your bot in pm (type yes to active or no to deactive; don't write in capital letter)",
+      "value": "yes",
+      "required": false
+    },
+    "BOT_NAME": {
+      "description": "put A name for your bot",
+      "value": "𝗞𝗔𝗡𝗗𝗔𝗟𝗔 𝗧𝗘𝗖𝗛®",
+      "required": false
+    },
+    "BOT_MENU_LINKS": {
+      "description": "add one or many link for your bot menu ; eg : url1,url2,url3.....",
+      "value": "https://i.ibb.co/4Y7Z1yK/neon-bg.jpg",
+      "required": false
+    },
+    "PUBLIC_MODE": {
+      "description": "type yes to put your bot on public mode or no to put it on private mode",
+      "value": "yes",
+      "required": false
+    },
+    "HEROKU_API_KEY": {
+      "description": "insert your heroku api-key (this is optional)",
+      "value": "",
+      "required": false
+    },
+    "HEROKU_APP_NAME": {
+      "description": "insert your heroku APP NAME (put the name you put on top)",
+      "value": "kandala-tech-bot",
+      "required": false
+    },
+    "SESSION_ID": {
+      "description": "put your session ID, the code you receive after scanning Qr code",   
+      "value": "",
+      "required": true
+    },
+    "OWNER_NAME": {
+      "description": "Your name",
+      "required": false,
+      "value": "Kandala"
+    },
+    "NUMERO_OWNER": {
+      "description": "Your number, dont put '+' and put you area code (example of kenya '254')",
+      "required": true,
+      "value": "255672752355"
+    },
+    "WARN_COUNT": {
+      "description": "this is the limit of warn for warning commands",
+      "required": false,
+      "value": "3"
+    },
+    "STARTING_BOT_MESSAGE": {
+      "description": "if you don't want starting-bot-message put no else put yes",
+      "required": true,
+      "value": "yes"
+    },
+    "PRESENCE": {
+      "description": "Mark your presence: 1 online. 2 typing a message. 3 recording. Or leave the field blank to indicate your real state.",
+      "value": "1",
+      "required": false
+    },
+    "ANTI_DELETE_MESSAGE": {
+      "description": "if you want to enable anti delete message put yes else put no",
+      "value": "yes",
+      "required": true
+    },
+    "CHATBOT": {
+      "description": "Enable or disable the chatbot. Type yes to activate or no to deactivate (don't write in capital letter)",
+      "value": "yes",
+      "required": false
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    }
+  ]
+}
