@@ -25,11 +25,11 @@
     "url": "https://github.com/kandala20/KANDALA-TECH-BOT.git"
   },
    "dependencies": {
-   "express": "^4.18.2",
-   "@adiwajshing/keyed-db": "^0.2.4",
-    "@brandond/findthelyrics": "^2.0.5",
-   ...
+    "express": "^4.18.2",
     "@adiwajshing/keyed-db": "^0.2.4",
+    "@brandond/findthelyrics": "^2.0.5",
+    "@green-code/music-track-data": "^2.0.3",
+    "@shineiichijo/marika": "^2.0.6",
     "@brandond/findthelyrics": "^2.0.5",
     "@green-code/music-track-data": "^2.0.3",
     "@shineiichijo/marika": "^2.0.6",
