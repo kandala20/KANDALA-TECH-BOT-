@@ -1,1 +1,1 @@
-web: node pkdriller.js
+worker: node pkdriller.js
