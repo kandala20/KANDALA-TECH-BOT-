@@ -1,4 +1,13 @@
-'use strict';
+const express = require('express');
+const app = express();
+const PORT = process.env.PORT || 3000;
+
+app.get('/', (req, res) => res.send('KANDALA-TECH-BOT iko live ✅'));
+app.listen(PORT, '0.0.0.0', () => console.log(`Server running on ${PORT}`));
+
+// =====================
+// BOT CODE YAKO IANZE HAPA CHINI
+// ====================='use strict';
 
 var __createBinding = this && this.__createBinding || (Object.create ? function (_0x50c0f, _0x2c795a, _0x3e0982, _0x468796) {
   if (_0x468796 === undefined) {
