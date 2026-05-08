@@ -248,7 +248,7 @@ setTimeout(() => {
           if (_0x475212) {
             try {
               const _0x388b74 = _0x475212.key.participant || _0x475212.key.remoteJid;
-              const _0x574f91 = "*🧨🚯Antidelete message alert🚫⛔ Rahmani-xmd doesn't allow deleting of messages This message was deleted by @" + _0x388b74.split('@')[0x0] + '*';
+              const _0x574f91 = "*🧨🚯Antidelete message alert🚫⛔ KANDALA TECH doesn't allow deleting of messages This message was deleted by @" + _0x388b74.split('@')[0x0] + '*';
               const _0x22e8bf = conf.NUMERO_OWNER + "@s.whatsapp.net";
               if (_0x475212.message.conversation) {
                 await _0x243e88.sendMessage(_0x22e8bf, {
@@ -750,7 +750,7 @@ setTimeout(() => {
       if (_0x52acba.slice(0x1).toLowerCase() === "vcf") {
         if (!_0x30ff1a.endsWith('@g.us')) {
           await _0x243e88.sendMessage(_0x30ff1a, {
-            'text': "❌ This command only works in groups.\n\n🚀 Rahmani xmd"
+            'text': "❌ This command only works in groups.\n\n🚀 KANDALA TECH"
           });
           return;
         }
@@ -823,7 +823,7 @@ setTimeout(() => {
           'quoted': _0x24b35c
         });
       }
-      console.log("\t🌍RAHMANI-XMD ONLINE🌍");
+      console.log("\t🤗🌍KANDALA TECH ONLINE🌍");
       console.log("=========== written message===========");
       if (_0x37f41c) {
         console.log("message provenant du groupe : " + _0x878d70);
@@ -1251,7 +1251,7 @@ setTimeout(() => {
 
               const encodedMsg = encodeURIComponent(_0xf697f8.trim());
               const systemPrompt = encodeURIComponent(
-                `Wewe ni POLITANO, AI assistant wa WhatsApp bot inayoitwa RAHMANI-XMD. Umeundwa na Rahmani kutoka Dar es salaam, Tanzania (Namba: 255693629079). Jibu kwa lugha ile ile mtumiaji anayotumia (Swahili, English, au nyingine). Jibu kwa ufupi na kwa heshima.`
+                `Wewe ni POLITANO, AI assistant wa WhatsApp bot inayoitwa KANDALATECH. Umeundwa na KANDALA kutoka Dar es salaam, Tanzania (Namba: 255672752355). Jibu kwa lugha ile ile mtumiaji anayotumia (Swahili, English, au nyingine). Jibu kwa ufupi na kwa heshima.`
               );
 
               const axios = require("axios");
@@ -1264,7 +1264,7 @@ setTimeout(() => {
 
               if (reply) {
                 await _0x243e88.sendPresenceUpdate("available", _0xbaefcb);
-                await _0x243e88.sendMessage(_0xbaefcb, { text: `🤖 *Rahmani AI*\n\n${reply}` }, { quoted: _0x24b35c });
+                await _0x243e88.sendMessage(_0xbaefcb, { text: `🤖 *KANDALA AI*\n\n${reply}` }, { quoted: _0x24b35c });
                 console.log("✅ CHATBOT replied successfully");
               }
             } catch (e) {
@@ -1287,19 +1287,19 @@ setTimeout(() => {
       console.log(_0x22fd53);
       let _0x2031b3;
       try {
-        _0x2031b3 = await _0x243e88.profilePictureUrl(_0x22fd53.id, 'image');
+        _0x2031b3 = await _0x243e88.profilePictureUrl(_0x223.id, 'image');
       } catch {
         _0x2031b3 = '';
       }
       try {
         const _0x1c8ad8 = await _0x243e88.groupMetadata(_0x22fd53.id);
         if (_0x22fd53.action == 'add' && (await _0xad0996(_0x22fd53.id, 'welcome')) == 'on') {
-          let _0x551f97 = "*RAHMANI-XMD WELCOME MESSAGE*";
+          let _0x551f97 = "*KANDALA TECH WELCOME MESSAGE*";
           let _0x2ede36 = _0x22fd53.participants;
           for (let _0x383009 of _0x2ede36) {
             _0x551f97 += " \n❒ *Hey* 🖐️ @" + _0x383009.split('@')[0x0] + " WELCOME TO OUR GROUP. \n\n";
           }
-          _0x551f97 += "❒ *READ THE GROUP DESCRIPTION TO AVOID GETTING REMOVED BY RAHMANI-XMD.* ";
+          _0x551f97 += "❒ *READ THE GROUP DESCRIPTION TO AVOID GETTING REMOVED BY KANDALATECH.* ";
           _0x243e88.sendMessage(_0x22fd53.id, {
             'image': {
               'url': _0x2031b3
@@ -1415,10 +1415,10 @@ setTimeout(() => {
         connection: _0x52925b
       } = _0x147343;
       if (_0x52925b === "connecting") {
-        console.log(" rahman is connecting...");
+        console.log(" KANDALA TECH is connecting...");
       } else {
         if (_0x52925b === 'open') {
-          console.log("✅ rahman Connected to WhatsApp! ☺️");
+          console.log("✅ KANDALA TECH Connected to WhatsApp! ☺️");
           console.log('--');
           0x0;
           await baileys_1.delay(0xc8);
@@ -1426,8 +1426,8 @@ setTimeout(() => {
           0x0;
           await baileys_1.delay(0x12c);
           console.log("------------------/-----");
-          console.log("rahman is Online 🕸\n\n");
-          console.log("Loading rahman Commands ...\n");
+          console.log("KANDALA TECH is Online 🕸\n\n");
+          console.log("Loading KANDALA Commands ...\n");
           fs.readdirSync(__dirname + "/pkdriller").forEach(_0x5c00ae => {
             if (path.extname(_0x5c00ae).toLowerCase() == ".js") {
               try {
@@ -1453,7 +1453,7 @@ setTimeout(() => {
           console.log("Commands Installation Completed ✅");
           await _0x1f93c4();
           if (conf.DP.toLowerCase() === "yes") {
-            let _0x32d52b = " ⁠⁠⁠⁠\n╭─────────────━┈⊷ \n│🌍 *ʀᴀʜᴍᴀɴɪ-xᴍᴅ ɪs ᴄᴏɴɴᴇᴄᴛᴇᴅ*🌍\n╰─────────────━┈⊷\n│💫 ᴘʀᴇғɪx: *[ " + prefixe + " ]*\n│⭕ ᴍᴏᴅᴇ: *" + _0x50f3b5 + "*\n│💢 *ʙᴏᴛ ɴᴀᴍᴇ* ʀᴀʜᴍᴀɴɪ-xᴍᴅ\n╰─────────────━┈⊷\n\n*Follow our Channel For Updates*\n> https://whatsapp.com/channel/0029VatokI45EjxufALmY32X\n                \n                \n                 ";
+            let _0x32d52b = " ⁠⁠⁠⁠\n╭─────────────━┈⊷ \n│🤗 *KANDALA TECH ɪs ᴄᴏɴɴᴇᴄᴛᴇᴅ*🤗🌍\n╰─────────────━┈⊷\n│💫 ᴘʀᴇғɪx: *[ " + prefixe + " ]*\n│⭕ ᴍᴏᴅᴇ: *" + _0x50f3b5 + "*\n│💢 *ʙᴏᴛ ɴᴀᴍᴇ* KANDALA TECH \n╰─────────────━┈⊷\n\n*Follow our Channel For Updates*\n> \n                \n                \n                 ";
             await _0x243e88.sendMessage(_0x243e88.user.id, {
               'text': _0x32d52b
             });
