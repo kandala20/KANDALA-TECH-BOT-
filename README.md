@@ -15,16 +15,16 @@
   <a href="https://wa.me/255672752355">
     <img src="https://img.shields.io/badge/Contact%20Owner-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Owner"/>
   </a>
-  <a href="https://github.com/kandala20/KANDALA-TECH-BOT">
+  <a href="https://github.com/kandala20/KANDALA-TECH-BOT-">
     <img src="https://img.shields.io/badge/GitHub-Repo-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/stars/kandala20/KANDALA-TECH-BOT?style=for-the-badge&color=yellow" alt="Stars"/>
-  <img src="https://img.shields.io/github/forks/kandala20/KANDALA-TECH-BOT?style=for-the-badge&color=green" alt="Forks"/>
-  <img src="https://img.shields.io/github/watchers/kandala20/KANDALA-TECH-BOT?style=for-the-badge&color=blue" alt="Watchers"/>
-  <img src="https://img.shields.io/github/license/kandala20/KANDALA-TECH-BOT?style=for-the-badge&color=purple" alt="License"/>
+  <img src="https://img.shields.io/github/stars/kandala20/KANDALA-TECH-BOT-?style=for-the-badge&color=yellow" alt="Stars"/>
+  <img src="https://img.shields.io/github/forks/kandala20/KANDALA-TECH-BOT-?style=for-the-badge&color=green" alt="Forks"/>
+  <img src="https://img.shields.io/github/watchers/kandala20/KANDALA-TECH-BOT-?style=for-the-badge&color=blue" alt="Watchers"/>
+  <img src="https://img.shields.io/github/license/kandala20/KANDALA-TECH-BOT-?style=for-the-badge&color=purple" alt="License"/>
 </p>
 
 <hr>
@@ -40,7 +40,7 @@
 ### **STEP 1: Fork This Repository**
 
 <p align="center">
-  <a href='https://github.com/kandala20/KANDALA-TECH-BOT/fork' target="_blank">
+  <a href='https://github.com/kandala20/KANDALA-TECH-BOT-/fork' target="_blank">
     <img src='https://img.shields.io/badge/FORK%20REPO-blue?style=for-the-badge&logo=github&logoColor=white' width="250"/>
   </a>
 </p>
@@ -69,7 +69,7 @@
   <tr>
     <td><b>Heroku</b></td>
     <td>
-      <a href="https://dashboard.heroku.com/new?template=https://github.com/kandala20/KANDALA-TECH-BOT">
+      <a href="https://dashboard.heroku.com/new?template=https://github.com/kandala20/KANDALA-TECH-BOT-">
         <img src="https://img.shields.io/badge/DEPLOY%20TO%20HEROKU-blue?style=for-the-badge&logo=heroku" width="200"/>
       </a>
     </td>
@@ -77,7 +77,7 @@
   <tr>
     <td><b>Railway</b></td>
     <td>
-      <a href="https://railway.app/new/template?template=https://github.com/kandala20/KANDALA-TECH-BOT">
+      <a href="https://railway.app/new/template?template=https://github.com/kandala20/KANDALA-TECH-BOT-">
         <img src="https://img.shields.io/badge/DEPLOY%20TO%20RAILWAY-yellow?style=for-the-badge&logo=railway" width="200"/>
       </a>
     </td>
@@ -85,7 +85,7 @@
   <tr>
     <td><b>Render</b></td>
     <td>
-      <a href="https://render.com/deploy?repo=https://github.com/kandala20/KANDALA-TECH-BOT">
+      <a href="https://render.com/deploy?repo=https://github.com/kandala20/KANDALA-TECH-BOT-">
         <img src="https://img.shields.io/badge/DEPLOY%20TO%20RENDER-red?style=for-the-badge&logo=render" width="200"/>
       </a>
     </td>
@@ -97,13 +97,13 @@
 ### **ONE-CLICK DEPLOYMENT BUTTONS**
 
 <p align="center">
-  <a href="https://render.com/deploy?repo=https://github.com/kandala20/KANDALA-TECH-BOT">
+  <a href="https://render.com/deploy?repo=https://github.com/kandala20/KANDALA-TECH-BOT-">
     <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render" width="200"/>
   </a>
-  <a href="https://railway.app/new/template?template=https://github.com/kandala20/KANDALA-TECH-BOT">
+  <a href="https://railway.app/new/template?template=https://github.com/kandala20/KANDALA-TECH-BOT-">
     <img src="https://railway.app/button.svg" alt="Deploy on Railway" width="200"/>
   </a>
-  <a href="https://heroku.com/deploy?template=https://github.com/kandala20/KANDALA-TECH-BOT">
+  <a href="https://heroku.com/deploy?template=https://github.com/kandala20/KANDALA-TECH-BOT-">
     <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" width="200"/>
   </a>
 </p>
@@ -120,19 +120,4 @@
 |----------|----------|
 | **👥 Group Management** | Add, remove, promote, demote members, group settings |
 | **🔗 Anti-Link** | Automatically delete links in groups |
-| **🛡️ Anti-Bug** | Detect and block users sending harmful messages |
-| **📥 Media Downloader** | Download from YouTube, TikTok, Instagram, etc. |
-| **🤖 AI Features** | Gemini, GPT, DALL-E integration |
-| **🎮 Fun Commands** | Jokes, games, and entertainment |
-| **👋 Welcome/Goodbye** | Custom welcome and goodbye messages |
-| **📊 Level System** | Track user activity and ranks |
-
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-
-## 📦 **REQUIREMENTS**
-
-- ✅ Node.js 18.x or higher
-- ✅ A WhatsApp number
-- ✅ [Baileys](https://github.com/WhiskeySockets/Baileys) library dependencies
-
-<a><img src='https://i.imgur
+| **🛡️ Anti-Bug** | Detect and block users sending harmful
