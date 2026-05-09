@@ -1,1 +1,1 @@
-worker: node pkdriller.js
+worker: node index.js
